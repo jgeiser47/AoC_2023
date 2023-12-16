@@ -94,6 +94,10 @@ def __get_next(curr, m, n):
     
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 def __simulate_energized(grid, start):
+    '''
+    Helper function for parts 1 and 2 to simulate "energization" of an entire grid
+    given a starting point. Uses Depth-First-Search (DFS) with a stack
+    '''
 
     # Grid dimensions
     m = len(grid)
